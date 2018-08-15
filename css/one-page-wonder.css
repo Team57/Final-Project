@@ -53,7 +53,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url("../img/homepage.jpg");
+  background-image: url("../img/bw.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -74,15 +74,16 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 h1.masthead-heading {
-  color: black;
-  font-weight: 500 !important;
+  color: white;
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 8px black;
 }
 
 h1.masthead-heading {
     /* border: 1px solid; */
     padding: 10px;
-    box-shadow: 8px 10px;
-    box-shadow: 5px 10px 10px black;
+    /* box-shadow: 8px 10px;
+    box-shadow: 5px 10px 10px black; */
 }
 
 @media (min-width: 992px) {
@@ -99,12 +100,12 @@ h1.masthead-heading {
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: blue !important;
 }
 
 .btn-primary {
-  background-color: #ec224a;
-  border-color: #ec224a;
+  background-color: #ff0061f5;
+  border-color: #ff0061f5;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
