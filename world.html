@@ -6,13 +6,6 @@
     <link rel="stylesheet"
     href="https://openLayers.org/en/v4.6.4/css/ol.css"
     type="text/css">
-    <script
-    src="https://openLayers.org/en/v4.6.4/build/ol.js"
-    type="text/javascript"></script>
-    <script src="map.js"
-    type="text/javascript"></script>
-    <title>Weather Map</title>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -29,6 +22,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://openLayers.org/en/v4.6.4/css/ol.css"
+    type="text/css">
+    <script
+    src="https://openLayers.org/en/v4.6.4/build/ol.js"
+    type="text/javascript"></script>
 
     <style>
 
@@ -80,7 +79,6 @@
       <li><a class="active" href="#home">Home</a></li>
       <li><a href="womeninpower.html">Women In Power</a></li>
       <li><a href="world.html">Women Around the World</a></li>
-      <li><a href="aroundtheworld.html">Around The World</a></li>
       <li><a href="videos.html">Videos</a></li>
       <li><a href="simulation.html">Simulation</a></li>
     </ul>
@@ -96,6 +94,49 @@
 
     <div id="map" class="map"></div>
 
+    <!-- Marker for India -->
+    <div style="display: none;">
+      <div class="marker" id="marker-India" title="India" data-popup="Women suffer from domestic violence."  data-coord="[78.9629, 20.5937]"></div>
+      <!-- Popup -->
+      <div id="popup-India" title="India"></div>
+    </div>
+    <!-- End marker for India -->
+
+    <!--Marker for Pakistan-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Pakistan" title="Pakistan" data-popup="<p>Men are still allowed to beat their wives.</p><p>21% of girls get married before the age of 18.</p><p>Violecnce against women in Pakistan includes rape, murder, acid attacks, and domestic violence.</p><p>Women are also victims of honor killing, which involves family members killing each other and not receiving any consequences."></div>
+      <!-- Popup -->
+      <div id="popup-India" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Pakistan-->
+
+    <!--Marker for Afghanistan-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Afghanistan" title="Afghanistan" data-popup="Men are allowed to forbid their women from the leaving the house."></div>
+      <!-- Popup -->
+      <div id="popup-Afghanistan" title="Welcome to OpenLayers"></div>
+    </div>
+    <!-- End marker -->
+
+    <!--Marker for Egypt-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Egypt" title="Egypt" data-popup="If a man kills his wife, he will receive more lenient punishment than the consequences of murder in other situations."></div>
+      <!-- Popup -->
+      <div id="popup-Egypt" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Egypt-->
+
+    <!--Marker for Nigeria-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Nigeria" title="Nigeria" data-popup="In Nigeria,
+Women can be legally assaulted by a man if that man is her husband."></div>
+      <!-- Popup -->
+      <div id="popup-Nigeria" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Nigeria-->
+
+
+
 
     <div class="backbutton" style="text-align: center; padding-bottom: 7rem;">
       <a href="#" class="btn btn-primary btn-l rounded-pill mt-5">Back To Top</a>
@@ -106,20 +147,15 @@
     <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Lizzet's Website 2018</p>
+        <p class="m-0 text-center text-white small">Copyright &copy; Empowerment</p>
       </div>
       <!-- /.container -->
     </footer>
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- <script type="text/javascript" src="main.js">
-
-
-    </script> -->
+    <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
   </body>
-
 </html>
