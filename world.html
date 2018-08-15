@@ -3,12 +3,15 @@
 
   <head>
 
+    <link rel="stylesheet"
+    href="https://openLayers.org/en/v4.6.4/css/ol.css"
+    type="text/css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BTS - Start Bootstrap Template</title>
+    <title>Final Project - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +22,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://openLayers.org/en/v4.6.4/css/ol.css"
+    type="text/css">
+    <script
+    src="https://openLayers.org/en/v4.6.4/build/ol.js"
+    type="text/javascript"></script>
+
     <style>
 
     body{margin: 0;}
@@ -46,113 +56,125 @@
       li a:hover {
           background-color: #EDBAFF;
       }
-
-      #map {
-        height: 100%;
-      }
-
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
     </style>
-
 
   </head>
 
   <body>
+<<<<<<< HEAD
+
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">We Deserve Better</h1>
+          <!-- <h2 class="masthead-subheading mb-0">Women and Men Are Equal</h2> -->
+        </div>
+      </div>
+      <!--<div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div> -->
+    </header>
+
     <ul>
+      <li><a class="active" href="#home">Home</a></li>
+=======
+    <div class="header">
+      <a class="navbar-brand" href="#">
+        <img src="img/map.png" width="50" height="30" class="d-inline-block align-top" alt="">
+        <strong>Women In Power</strong>
+      </a>
+      <div class="header-right">
+        <a href="home.html">Home</a>
+        <a href="womeninpower.html">Women In Power</a>
+        <a class="active" href="world.html"><strong>Around The World</strong></a>
+        <a href="videos.html">Videos</a>
+        <a href="simulation.html">Simulation</a>
+      </div>
+    </div>
+
+    <!-- <ul>
       <li><a class="active" href="home.html">Home</a></li>
+>>>>>>> a88dc1ee2ff6a7983f98e3b4dc3543dc707efd56
       <li><a href="womeninpower.html">Women In Power</a></li>
-      <li><a href="world.html">Women Around The World</a></li>
+      <li><a href="world.html">Women Around the World</a></li>
       <li><a href="videos.html">Videos</a></li>
       <li><a href="simulation.html">Simulation</a></li>
-    </ul>
+    </ul> -->
 
     <section>
       <div class="col-lg-12">
         <div class="p-5">
-          <h2 class="display-4" style="text-align: center">Women Around the World</h2>
+          <h2 class="display-4">Women Around the World</h2>
+          <p>Click on the markers to learn about how women's rights are being violated in different parts of the world. We still have a lot of work to do!</p>
       </div>
     </section>
 
-    <div id="map"></div>
-    <script>
 
-      // This example displays a marker at the center of Australia.
-      // When the user clicks the marker, an info window opens.
+    <div id="map" class="map"></div>
 
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
+    <!-- Marker for India -->
+    <div style="display: none;">
+      <div class="marker" id="marker-India" title="India" data-popup="Women suffer from domestic violence."  data-coord="[78.9629, 20.5937]"></div>
+      <!-- Popup -->
+      <div id="popup-India" title="India"></div>
+    </div>
+    <!-- End marker for India -->
 
-        var contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-            '<div id="bodyContent">'+
-            '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-            'sandstone rock formation in the southern part of the '+
-            'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-            'south west of the nearest large town, Alice Springs; 450&#160;km '+
-            '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-            'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-            'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-            'Aboriginal people of the area. It has many springs, waterholes, '+
-            'rock caves and ancient paintings. Uluru is listed as a World '+
-            'Heritage Site.</p>'+
-            '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-            'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-            '(last visited June 22, 2009).</p>'+
-            '</div>'+
-            '</div>';
+    <!--Marker for Pakistan-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Pakistan" title="Pakistan" data-popup="<p>Men are still allowed to beat their wives.</p><p>21% of girls get married before the age of 18.</p><p>Violecnce against women in Pakistan includes rape, murder, acid attacks, and domestic violence.</p><p>Women are also victims of honor killing, which involves family members killing each other and not receiving any consequences."></div>
+      <!-- Popup -->
+      <div id="popup-India" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Pakistan-->
 
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
+    <!--Marker for Afghanistan-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Afghanistan" title="Afghanistan" data-popup="Men are allowed to forbid their women from the leaving the house."></div>
+      <!-- Popup -->
+      <div id="popup-Afghanistan" title="Welcome to OpenLayers"></div>
+    </div>
+    <!-- End marker -->
 
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-          title: 'Uluru (Ayers Rock)'
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFtcztw5MkiRoT2gVY1h1HuK3gdBNBj8s&callback=initMap">
-    </script>
+    <!--Marker for Egypt-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Egypt" title="Egypt" data-popup="If a man kills his wife, he will receive more lenient punishment than the consequences of murder in other situations."></div>
+      <!-- Popup -->
+      <div id="popup-Egypt" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Egypt-->
+
+    <!--Marker for Nigeria-->
+    <div style="display: none;">
+      <div class="marker" id="marker-Nigeria" title="Nigeria" data-popup="In Nigeria,
+Women can be legally assaulted by a man if that man is her husband."></div>
+      <!-- Popup -->
+      <div id="popup-Nigeria" title="Welcome to OpenLayers"></div>
+    </div>
+    <!--End marker for Nigeria-->
 
 
 
-    <div class="backbutton" style="text-align: center; padding-bottom: 7rem;"" >
+
+    <div class="backbutton" style="text-align: center; padding-bottom: 7rem;">
       <a href="#" class="btn btn-primary btn-l rounded-pill mt-5">Back To Top</a>
     </div>
+
 
 
     <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Women's Rights</p>
+        <p class="m-0 text-center text-white small">Copyright &copy; Empowerment</p>
       </div>
       <!-- /.container -->
     </footer>
 
+
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- <script type="text/javascript" src="main.js">
-
-
-    </script> -->
+    <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
   </body>
-
 </html>
