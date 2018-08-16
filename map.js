@@ -25,3 +25,10 @@ nigeria_marker.bindPopup("In Nigeria, women can be legally assaulted by a man if
 var argentina_latlng = L.latLng(-36.61667,-64.28333)
 var argentina_marker = L.marker(argentina_latlng).addTo(mymap);
 argentina_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+
+var saudiarabia_marker = L.marker([23.8859,45.0792]).addTo(mymap);
+saudiarabia_marker.bindPopup("Saudi Arabia has rested several women's rights activists.");
+
+var america_latlng = L.latLng(37.697948,-97.641144)
+var america_marker = L.marker(america_latlng).addTo(mymap);
+america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
