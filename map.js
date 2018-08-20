@@ -29,6 +29,15 @@ argentina_marker.bindPopup("Argentina has yet to pass a law that would legalize 
 var saudiarabia_marker = L.marker([23.8859,45.0792]).addTo(mymap);
 saudiarabia_marker.bindPopup("Saudi Arabia has rested several women's rights activists.");
 
+// var australia_latlng = L.latLng(‎149.012375,-35.473469);
+// var australia_marker = L.marker(australia_latlng).addTo(mymap);
+// australia_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+
+var brazil_marker = L.marker([-23.533773, ‎-46.625290]).addTo(mymap);
+brazil_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+
+
+
 var america_latlng = L.latLng(37.697948,-97.641144)
 var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
