@@ -27,17 +27,31 @@ var argentina_marker = L.marker(argentina_latlng).addTo(mymap);
 argentina_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
 
 var saudiarabia_marker = L.marker([23.8859,45.0792]).addTo(mymap);
-saudiarabia_marker.bindPopup("Saudi Arabia has rested several women's rights activists.");
+saudiarabia_marker.bindPopup("Saudi Arabia has arrested several women's rights activists.");
 
-// var australia_latlng = L.latLng(‎149.012375,-35.473469);
-// var australia_marker = L.marker(australia_latlng).addTo(mymap);
-// australia_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+var australia_latlng = L.latLng(-23.700552,133.882675);
+var australia_marker = L.marker(australia_latlng).addTo(mymap);
+australia_marker.bindPopup("<p>One in three Australian women will experience violence in an intimate relationship, and one in five women have experienced sexual violence since the age of 15.</p> <p> Additionally, domestic violence is the biggest cause of homelessness for Australian women.In 2015-2016 the average Australian woman was reaching retirement with an average of $113,660 less superannuation than the average male</p>");
 
-var brazil_marker = L.marker([-23.533773, ‎-46.625290]).addTo(mymap);
-brazil_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+var brazil_marker = L.marker([-14.235004,-51.925282]).addTo(mymap);
+brazil_marker.bindPopup("Women suffered violence ranging from threats and beatings to attempted murder.Well over half of the attackers were current or former spouses or partners");
 
+var venezuela_marker = L.marker([6.423750,-66.589729]).addTo(mymap);
+venezuela_marker.bindPopup("<p>Violence against women to include such activities as sexual and verbal assault, forced prostitution, and trafficking—and was groundbreaking at the time.</p><p>Second highest rate of pregnancy and the highest death rate cause by failure of abortion or gun violence.</p><p>They are in poverty, violence, hunger, malnutrition and poor health.Women would sell their hair for currency.</p>");
 
+var peru_marker = L.marker([-9.189967,-75.015152]).addTo(mymap);
+peru_marker.bindPopup(" Women have been killed in Peru in “femicides” (the killing of a woman in certain contexts, including domestic violence and gender-based discrimination)")
+
+var bolivia_marker = L.marker([-16.290154,-63.588654]).addTo(mymap);
+bolivia_marker.bindPopup("Laws prevent girls from attaining higher levels of schooling in Bolivia, including domestic care work, early pregnancy, and the need for income.")
+
+var columbia_latlng = L.latLng(4.526914,-74.067519);
+var columbia_marker = L.marker(columbia_latlng).addTo(mymap);
+columbia_marker.bindPopup("Lack of training and poor implementation of treatment protocols impede timely access to medical services and create obstacles for women and girls seeking post-violence care. ")
 
 var america_latlng = L.latLng(37.697948,-97.641144)
 var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
+
+var bolivia_marker = L.marker([-16.290154,-63.588654]).addTo(mymap);
+bolivia_marker.bindPopup("Laws prevent girls from attaining higher levels of schooling in Bolivia, including domestic care work, early pregnancy, and the need for income.")
