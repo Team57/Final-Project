@@ -87,6 +87,6 @@ var russia_latlng = L.latLng(62.793259,98.063618);
 var russia_marker = L.marker(russia_latlng).addTo(mymap);
 russia_marker.bindPopup("The experts, from the Committee on the Elimination of Discrimination against Women (CEDAW), reiterated their call for Russia to amend legislation that lists 456 occupations and 38 branches of industry considered by the Russian authorities as too arduous or dangerous to women’s health, above all their reproductive health.")
 
-var china_latlng = L.latLng(62.793259,98.063618);
+var china_latlng = L.latLng(35.861660,104.195396);
 var china_marker = L.marker(china_latlng).addTo(mymap);
 china_marker.bindPopup(" Women and girls in China continue to confront sexual abuse and harassment, employment discrimination, and domestic violence.")
