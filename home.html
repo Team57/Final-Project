@@ -118,25 +118,38 @@
 
 
     <div class="container1">
-      <form action="/action_page.php">
+      <form name="contact" method="POST" netlify>
+      <!-- <form action="mailto:lvilla212@gmail.com" method="post"> -->
+        <!-- <form name="contact" method="POST" netlify> -->
         <div style="text-align: center">
           <h3>We'd love to hear from you!</h3>
         </div>
 
-        <form name="contact" method="POST" action="#" netlifly>
+        <!-- <form name="contact" method="POST" action="#" netlifly> -->
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+        <label for="ename">E-mail</label>
+        <input type="text" id="ename" name="emailname" placeholder="Provide your email to get a response back.">
+
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
-        </form>
+        <!-- </form> -->
       </form>
     </div>
+
+    <!-- <script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name");
+    frmvalidator.addValidation("email","req","Please provide your email");
+    frmvalidator.addValidation("email","email",
+    "Please enter a valid email address");
+    </script> -->
 
     <section>
       <div class="container">
