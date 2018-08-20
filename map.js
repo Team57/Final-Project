@@ -66,21 +66,27 @@ var drc_marker = L.marker([-3.078338,24.068719]).addTo(mymap);
 drc_marker.bindPopup("In DRC, there is no laws against domestic violence 62% of african females death are caused by pregnancy and childbirth.")
 
 var algeria_marker = L.marker([26.966147,2.632695]).addTo(mymap);
-algeria_marker.bindPopup(" <p>In Algeria, protection orders to protect women from violence and specific obligations on law enforcement to respond to domestic violence.</p><p> The law, moreover, makes women vulnerable to threats from the offender or relatives.</p>")
-
+algeria_marker.bindPopup("In Algeria, women face sexual harassment, domestic abuse, and hey are vulnerable to threats from the offender or relatives.")
 var spain_latlng = L.latLng(40.416775,-3.703790);
 var spain_marker = L.marker(spain_latlng).addTo(mymap);
 spain_marker.bindPopup("In Spain, 5.3 million women workers face gender inequality and discrimination in the workplace.")
 
 var france_latlng = L.latLng(46.227638,2.213749);
 var france_marker = L.marker(france_latlng).addTo(mymap);
-france_marker.bindPopup("In France, women are sexually assaulted and discriminate at their workplace.")
+france_marker.bindPopup("In France, women are sexually assaulted and discriminated at their workplace.")
 
 var ireland_latlng = L.latLng(54.666908,-6.798090);
 var ireland_marker = L.marker(ireland_latlng).addTo(mymap);
 ireland_marker.bindPopup("Abortion is illegal in Northern Ireland and women have limited access to it, because it is criminalized to have one.")
 
-
 var italy_latlng = L.latLng(41.489035,14.636746);
 var italy_marker = L.marker(italy_latlng).addTo(mymap);
-ireland_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
+italy_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
+
+var russia_latlng = L.latLng(62.793259,98.063618);
+var russia_marker = L.marker(russia_latlng).addTo(mymap);
+russia_marker.bindPopup("The experts, from the Committee on the Elimination of Discrimination against Women (CEDAW), reiterated their call for Russia to amend legislation that lists 456 occupations and 38 branches of industry considered by the Russian authorities as too arduous or dangerous to women’s health, above all their reproductive health.")
+
+var china_latlng = L.latLng(62.793259,98.063618);
+var china_marker = L.marker(china_latlng).addTo(mymap);
+china_marker.bindPopup(" Women and girls in China continue to confront sexual abuse and harassment, employment discrimination, and domestic violence.")
