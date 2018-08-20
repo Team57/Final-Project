@@ -53,5 +53,34 @@ var america_latlng = L.latLng(37.697948,-97.641144)
 var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
 
-var bolivia_marker = L.marker([-16.290154,-63.588654]).addTo(mymap);
-bolivia_marker.bindPopup("Laws prevent girls from attaining higher levels of schooling in Bolivia, including domestic care work, early pregnancy, and the need for income.")
+var sudan_marker = L.marker([12.862807,30.217636]).addTo(mymap);
+sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>Lack access to reproductive health care, including emergency obstetric care. Have punishments for adultery or dress code violations. government soldiers reportedly continued to rape women and girls selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
+
+var southamerica_marker = L.marker([-32.475781,24.116288]).addTo(mymap);
+southamerica_marker.bindPopup("In South Africa, violence against women, including rape and domestic violence, remained widespread and underreported., one in five women older than 18 has experienced physical violence, and three women die at the hands of their partner every day.")
+
+var zimbabwe_marker = L.marker([-20.401272,30.361984]).addTo(mymap);
+zimbabwe_marker.bindPopup("<p>In Zimbabwe, the government has yet to amend or repeal all existing marriage laws that still allow child marriage.</p><p> Women can not own land from their husbands after their death due to lack of access to the courts and the high cost of obtaining the necessary documents to ward off in-laws’ intent on property grabbing.</p> ")
+
+var drc_marker = L.marker([-3.078338,24.068719]).addTo(mymap);
+drc_marker.bindPopup("In DRC, there is no laws against domestic violence 62% of african females death are caused by pregnancy and childbirth.")
+
+var algeria_marker = L.marker([26.966147,2.632695]).addTo(mymap);
+algeria_marker.bindPopup(" <p>In Algeria, protection orders to protect women from violence and specific obligations on law enforcement to respond to domestic violence.</p><p> The law, moreover, makes women vulnerable to threats from the offender or relatives.</p>")
+
+var spain_latlng = L.latLng(40.416775,-3.703790);
+var spain_marker = L.marker(spain_latlng).addTo(mymap);
+spain_marker.bindPopup("In Spain, 5.3 million women workers face gender inequality and discrimination in the workplace.")
+
+var france_latlng = L.latLng(46.227638,2.213749);
+var france_marker = L.marker(france_latlng).addTo(mymap);
+france_marker.bindPopup("In France, women are sexually assaulted and discriminate at their workplace.")
+
+var ireland_latlng = L.latLng(54.666908,-6.798090);
+var ireland_marker = L.marker(ireland_latlng).addTo(mymap);
+ireland_marker.bindPopup("Abortion is illegal in Northern Ireland and women have limited access to it, because it is criminalized to have one.")
+
+
+var italy_latlng = L.latLng(41.489035,14.636746);
+var italy_marker = L.marker(italy_latlng).addTo(mymap);
+ireland_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
