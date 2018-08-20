@@ -27,14 +27,14 @@ var argentina_marker = L.marker(argentina_latlng).addTo(mymap);
 argentina_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
 
 var saudiarabia_marker = L.marker([23.8859,45.0792]).addTo(mymap);
-saudiarabia_marker.bindPopup("Saudi Arabia has rested several women's rights activists.");
+saudiarabia_marker.bindPopup("Saudi Arabia has arrested several women's rights activists.");
 
-// var australia_latlng = L.latLng(‎149.012375,-35.473469);
-// var australia_marker = L.marker(australia_latlng).addTo(mymap);
-// australia_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
-
-var brazil_marker = L.marker([-23.533773, ‎-46.625290]).addTo(mymap);
-brazil_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+ var australia_latlng = L.latLng(-23.700552,133.882675);
+ var australia_marker = L.marker(australia_latlng).addTo(mymap);
+ australia_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
+//var brazil_latlng = L.latLng(‎-23.533773,-46.625290)
+//var brazil_marker = L.marker(brazil_marker).addTo(mymap);
+//brazil_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
 
 
 
