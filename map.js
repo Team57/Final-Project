@@ -27,17 +27,7 @@ var argentina_marker = L.marker(argentina_latlng).addTo(mymap);
 argentina_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
 
 var saudiarabia_marker = L.marker([23.8859,45.0792]).addTo(mymap);
-<<<<<<< HEAD
 saudiarabia_marker.bindPopup("Saudi Arabia has arrested several women's rights activists.");
-
- var australia_latlng = L.latLng(-23.700552,133.882675);
- var australia_marker = L.marker(australia_latlng).addTo(mymap);
- australia_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
-//var brazil_latlng = L.latLng(‎-23.533773,-46.625290)
-//var brazil_marker = L.marker(brazil_marker).addTo(mymap);
-//brazil_marker.bindPopup("Argentina has yet to pass a law that would legalize abortion.");
-=======
-saudiarabia_marker.bindPopup("Saudi Arabia has rested several women's rights activists.");
 
 var australia_latlng = L.latLng(-23.700552,133.882675);
 var australia_marker = L.marker(australia_latlng).addTo(mymap);
@@ -45,7 +35,6 @@ australia_marker.bindPopup("<p>One in three Australian women will experience vio
 
 var brazil_marker = L.marker([-14.235004,-51.925282]).addTo(mymap);
 brazil_marker.bindPopup("Women suffered violence ranging from threats and beatings to attempted murder.Well over half of the attackers were current or former spouses or partners");
->>>>>>> 9c0bb9020454e3358868f36b13caa1b86f186903
 
 var venezuela_marker = L.marker([6.423750,-66.589729]).addTo(mymap);
 venezuela_marker.bindPopup("<p>Violence against women to include such activities as sexual and verbal assault, forced prostitution, and trafficking—and was groundbreaking at the time.</p><p>Second highest rate of pregnancy and the highest death rate cause by failure of abortion or gun violence.</p><p>They are in poverty, violence, hunger, malnutrition and poor health.Women would sell their hair for currency.</p>");
@@ -63,3 +52,6 @@ columbia_marker.bindPopup("Lack of training and poor implementation of treatment
 var america_latlng = L.latLng(37.697948,-97.641144)
 var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
+
+var bolivia_marker = L.marker([-16.290154,-63.588654]).addTo(mymap);
+bolivia_marker.bindPopup("Laws prevent girls from attaining higher levels of schooling in Bolivia, including domestic care work, early pregnancy, and the need for income.")
