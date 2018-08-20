@@ -42,6 +42,45 @@
       }
 
     </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: dodgerblue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #0073e6;
+    }
+
+    .container1 {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-left: 75px;
+        margin-right: 10px;
+        width: 70em
+    }
+    </style>
   </head>
 
   <body>
@@ -61,17 +100,6 @@
       </a>
       <div class="header-right">
         <a class="active" href="home.html"><strong>Home</strong></a>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li> -->
         <a href="womeninpower.html">Women In Power</a>
         <a href="world.html">Around The World</a>
         <a href="videos.html">Videos</a>
@@ -86,6 +114,29 @@
           <p>The purpose of this website is to empower women and educate the world about the experiences of women in different aspects of society.</p>
       </div>
     </section>
+
+
+
+    <div class="container1">
+      <form action="/action_page.php">
+        <div style="text-align: center">
+          <h3>We'd love to hear from you!</h3>
+        </div>
+
+        <form name="contact" method="POST" action="#" netlifly>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+        </form>
+      </form>
+    </div>
 
     <section>
       <div class="container">
