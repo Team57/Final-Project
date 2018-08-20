@@ -54,7 +54,7 @@ var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
 
 var sudan_marker = L.marker([12.862807,30.217636]).addTo(mymap);
-sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>Lack access to reproductive health care, including emergency obstetric care. Have punishments for adultery or dress code violations. government soldiers reportedly continued to rape women and girls selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
+sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>There a lack access to reproductive health care, including emergency obstetric care. They have punishments for adultery or dress code violations. government soldiers reportedly continued to rape women and girls selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
 
 var southamerica_marker = L.marker([-32.475781,24.116288]).addTo(mymap);
 southamerica_marker.bindPopup("In South Africa, violence against women, including rape and domestic violence, remained widespread and underreported., one in five women older than 18 has experienced physical violence, and three women die at the hands of their partner every day.")
