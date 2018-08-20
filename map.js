@@ -34,10 +34,10 @@ var australia_marker = L.marker(australia_latlng).addTo(mymap);
 australia_marker.bindPopup("<p>One in three Australian women will experience violence in an intimate relationship, and one in five women have experienced sexual violence since the age of 15.</p> <p> Additionally, domestic violence is the biggest cause of homelessness for Australian women.In 2015-2016 the average Australian woman was reaching retirement with an average of $113,660 less superannuation than the average male</p>");
 
 var brazil_marker = L.marker([-14.235004,-51.925282]).addTo(mymap);
-brazil_marker.bindPopup("Women suffered violence ranging from threats and beatings to attempted murder.Well over half of the attackers were current or former spouses or partners");
+brazil_marker.bindPopup("Women suffered violence ranging from threats and beatings to attempted murder.Well over half of the attackers were current or former spouses or partners.");
 
 var venezuela_marker = L.marker([6.423750,-66.589729]).addTo(mymap);
-venezuela_marker.bindPopup("<p>Violence against women to include such activities as sexual and verbal assault, forced prostitution, and trafficking—and was groundbreaking at the time.</p><p>Second highest rate of pregnancy and the highest death rate cause by failure of abortion or gun violence.</p><p>They are in poverty, violence, hunger, malnutrition and poor health.Women would sell their hair for currency.</p>");
+venezuela_marker.bindPopup("<p>Violence against women include such activities as sexual and verbal assault, forced prostitution, and trafficking.</p><p>Second highest rate of pregnancy and the highest death rate cause by failure of abortion or gun violence.</p><p>They are in poverty, violence, hunger, malnutrition and poor health.</p>");
 
 var peru_marker = L.marker([-9.189967,-75.015152]).addTo(mymap);
 peru_marker.bindPopup(" Women have been killed in Peru in “femicides” (the killing of a woman in certain contexts, including domestic violence and gender-based discrimination)")
@@ -54,19 +54,19 @@ var america_marker = L.marker(america_latlng).addTo(mymap);
 america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
 
 var sudan_marker = L.marker([12.862807,30.217636]).addTo(mymap);
-sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>Lack access to reproductive health care, including emergency obstetric care. Have punishments for adultery or dress code violations. government soldiers reportedly continued to rape women and girls selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
+sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>There is a lack of access to reproductive health care, including emergency obstetric care. There are punishments for adultery or dress code violations. Government soldiers reportedly continue to rape women and girls are selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
 
 var southamerica_marker = L.marker([-32.475781,24.116288]).addTo(mymap);
-southamerica_marker.bindPopup("In South Africa, violence against women, including rape and domestic violence, remained widespread and underreported., one in five women older than 18 has experienced physical violence, and three women die at the hands of their partner every day.")
+southamerica_marker.bindPopup("In South Africa, violence against women, including rape and domestic violence, remaine widespread and underreported. One in five women older than 18 has experienced physical violence, and three women die at the hands of their partner every day.")
 
 var zimbabwe_marker = L.marker([-20.401272,30.361984]).addTo(mymap);
-zimbabwe_marker.bindPopup("<p>In Zimbabwe, the government has yet to amend or repeal all existing marriage laws that still allow child marriage.</p><p> Women can not own land from their husbands after their death due to lack of access to the courts and the high cost of obtaining the necessary documents to ward off in-laws’ intent on property grabbing.</p> ")
+zimbabwe_marker.bindPopup("<p>In Zimbabwe, the government has yet to amend or repeal all existing marriage laws that still allow child marriages.</p><p> Women can not own land from their husbands after their death due to lack of access to the courts and the high cost of obtaining the necessary documents to ward off in-laws’ intent on property grabbing.</p> ")
 
 var drc_marker = L.marker([-3.078338,24.068719]).addTo(mymap);
-drc_marker.bindPopup("In DRC, there is no laws against domestic violence 62% of african females death are caused by pregnancy and childbirth.")
+drc_marker.bindPopup("In DRC(Democratic Republic of the Congo), there are no laws against domestic violence. 62% of women died due to pregnancy and childbirth.")
 
 var algeria_marker = L.marker([26.966147,2.632695]).addTo(mymap);
-algeria_marker.bindPopup(" <p>In Algeria, protection orders to protect women from violence and specific obligations on law enforcement to respond to domestic violence.</p><p> The law, moreover, makes women vulnerable to threats from the offender or relatives.</p>")
+algeria_marker.bindPopup("In Algeria, women face sexual harassment, domestic abuse, and they are vulnerable to threats from the offenders or relatives.")
 
 var spain_latlng = L.latLng(40.416775,-3.703790);
 var spain_marker = L.marker(spain_latlng).addTo(mymap);
@@ -74,13 +74,20 @@ spain_marker.bindPopup("In Spain, 5.3 million women workers face gender inequali
 
 var france_latlng = L.latLng(46.227638,2.213749);
 var france_marker = L.marker(france_latlng).addTo(mymap);
-france_marker.bindPopup("In France, women are sexually assaulted and discriminate at their workplace.")
+france_marker.bindPopup("In France, women are sexually assaulted and discriminated at their workplace.")
 
 var ireland_latlng = L.latLng(54.666908,-6.798090);
 var ireland_marker = L.marker(ireland_latlng).addTo(mymap);
-ireland_marker.bindPopup("Abortion is illegal in Northern Ireland and women have limited access to it, because it is criminalized to have one.")
-
+ireland_marker.bindPopup("Abortion is illegal in Northern Ireland and women have limited access to it.")
 
 var italy_latlng = L.latLng(41.489035,14.636746);
 var italy_marker = L.marker(italy_latlng).addTo(mymap);
-ireland_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
+italy_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
+
+var russia_latlng = L.latLng(62.793259,98.063618);
+var russia_marker = L.marker(russia_latlng).addTo(mymap);
+russia_marker.bindPopup("Women aren’t allowed to work in about 456 occupations and 38 branches of industries  because it is considered to be too dangerous for them.")
+
+var china_latlng = L.latLng(35.861660,104.195396);
+var china_marker = L.marker(china_latlng).addTo(mymap);
+china_marker.bindPopup(" Women and girls in China continue to confront sexual abuse and harassment, employment discrimination, and domestic violence.")
