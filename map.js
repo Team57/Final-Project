@@ -35,7 +35,7 @@ saudiarabia_marker.bindPopup("Saudi Arabia has arrested several women's rights a
 
 var australia_latlng = L.latLng(-23.700552,133.882675);
 var australia_marker = L.marker(australia_latlng).addTo(mymap);
-australia_marker.bindPopup("<p>One in three Australian women will experience violence in an intimate relationship, and one in five women have experienced sexual violence since the age of 15.</p> <p> Additionally, domestic violence is the biggest cause of homelessness for Australian women.In 2015-2016 the average Australian woman was reaching retirement with an average of $113,660 less superannuation than the average male</p>");
+australia_marker.bindPopup("<p>One in three Australian women will experience violence in an intimate relationship, and one in five women have experienced sexual violence since the age of 15.</p> <p> Additionally, domestic violence is the biggest cause of homelessness for Australian women. In 2015-2016 the average Australian woman was reaching retirement with an average of $113,660 less superannuation than the average male</p>");
 
 var brazil_marker = L.marker([-14.235004,-51.925282]).addTo(mymap);
 brazil_marker.bindPopup("Women suffered violence ranging from threats and beatings to attempted murder.Well over half of the attackers were current or former spouses or partners.");
@@ -82,7 +82,7 @@ ireland_marker.bindPopup("Abortion is illegal in Northern Ireland and women have
 
 var italy_latlng = L.latLng(41.489035,14.636746);
 var italy_marker = L.marker(italy_latlng).addTo(mymap);
-italy_marker.bindPopup("Some 62 percent of Italian women’s work each day is unpaid, the WEF said, compared to 30 percent for Italian men.")
+italy_marker.bindPopup("Some 62 percent of Italian women who work each day are unpaid, the WEF said, compared to 30 percent for Italian men.")
 
 var russia_latlng = L.latLng(62.793259,98.063618);
 var russia_marker = L.marker(russia_latlng).addTo(mymap);
