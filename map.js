@@ -1,4 +1,4 @@
-var ourLoc = [20.5937, 78.9629];
+var ourLoc = [37.697948,-97.641144];
 var mymap = L.map('mymap').setView(ourLoc, 4);
 var mapbox_key = "pk.eyJ1IjoicmF2ZW5jbGF3MTk5OSIsImEiOiJjamt3bzFyMjgwc21vM3BxMjVqaXh3eTc4In0.YvsYMTBfJhXbVGh3oQyFfQ";
 
@@ -6,6 +6,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='
 		maxZoom: 18,
 		id: 'mapbox.streets'
 	}).addTo(mymap);
+
+var america_latlng = L.latLng(37.697948,-97.641144)
+var america_marker = L.marker(america_latlng).addTo(mymap);
+america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
 
 var india_marker = L.marker([20.5937, 78.9629]).addTo(mymap);
 india_marker.bindPopup("<p>Women suffer from domestic violence.</p><p>Men are allowed to divorce their wives just by reciting 'I divorce you' three times.</p><p>Women and girls with disabilities struggle to seek justice for violence against them.");
@@ -48,10 +52,6 @@ bolivia_marker.bindPopup("Laws prevent girls from attaining higher levels of sch
 var columbia_latlng = L.latLng(4.526914,-74.067519);
 var columbia_marker = L.marker(columbia_latlng).addTo(mymap);
 columbia_marker.bindPopup("Lack of training and poor implementation of treatment protocols impede timely access to medical services and create obstacles for women and girls seeking post-violence care. ")
-
-var america_latlng = L.latLng(37.697948,-97.641144)
-var america_marker = L.marker(america_latlng).addTo(mymap);
-america_marker.bindPopup("America still has yet to pass the Equal Rights Amendment, which would guarantee equal legal rights to all American citizens regardless of gender.");
 
 var sudan_marker = L.marker([12.862807,30.217636]).addTo(mymap);
 sudan_marker.bindPopup("<p>In Sudan, sexual violence and public order codes to restrict or silence female human rights activists.</p><p>There is a lack of access to reproductive health care, including emergency obstetric care. There are punishments for adultery or dress code violations. Government soldiers reportedly continue to rape women and girls are selected as targets based on their ethnicity.</p><p> No SPLA soldiers were prosecuted for the sexual violence crimes</p>")
