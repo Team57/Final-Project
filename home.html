@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Final Project - Women in Power</title>
+    <title>Diversity. Equality. Unity.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,14 +20,72 @@
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .c{
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+      }
+      .row{
+         width: 250px;
+
+      }
+      .look {
+        height:250px;
+        width:150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .words{
+      font-size:35px;
+      }
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: dodgerblue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #0073e6;
+    }
+
+    .container1 {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-left: 75px;
+        margin-right: 10px;
+        width: 70em
+    }
+    #text {
+      font-size: 35px;
+    }
+    </style>
   </head>
 
   <body>
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">We Deserve Better</h1>
+          <h1 class="masthead-heading mb-0">Diversity.Equality.Unity.</h1>
           <!-- <h2 class="masthead-subheading mb-0">Women and Men Are Equal</h2> -->
         </div>
       </div>
@@ -36,55 +94,136 @@
     <div class="header">
       <a class="navbar-brand" href="#">
         <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-        <strong>Women In Power</strong>
+        <strong>D.E.U.</strong>
       </a>
       <div class="header-right">
         <a class="active" href="home.html"><strong>Home</strong></a>
         <a href="womeninpower.html">Women In Power</a>
         <a href="world.html">Around The World</a>
         <a href="videos.html">Videos</a>
-        <a href="simulation.html">Simulation</a>
+        <a href="simulation.html">Story</a>
       </div>
     </div>
-
-    <!-- <ul>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-          Women In Power
-        </a>
-      </nav>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="womeninpower.html">Women In Power</a></li>
-      <li><a href="world.html">Women Around the World</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="simulation.html">Simulation</a></li>
-    </ul> -->
 
     <section>
       <div class="col-lg-12">
         <div class="p-5">
-          <h2 class="display-4">ABOUT US</h2>
-          <p>The purpose of this website is to empower women and educate the world about the experiences of women in different aspects of society.</p>
-        </div>
+          <h2 class="display-4">About Us</h2>
+          <p id="text">The purpose of this website is to empower women and educate the world about the experiences of women in different aspects of society. This website showcases amazing and intelligent women in different careers and emphasizes the need for progress around the world. It highlights the importance of women empowerment and equality. </p>
       </div>
     </section>
 
-    <div class="backbutton" style="text-align: center; padding-bottom: 7rem;">
-      <a href="#" class="btn btn-primary btn-l pill mt-5">Back To Top</a>
+
+
+    <div class="container1">
+      <form name="contact" method="POST" netlify>
+      <!-- <form action="mailto:lvilla212@gmail.com" method="post"> -->
+        <!-- <form name="contact" method="POST" netlify> -->
+        <div style="text-align: center">
+          <h3>We'd love to hear from you!</h3>
+        </div>
+
+        <!-- <form name="contact" method="POST" action="#" netlifly> -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="ename">E-mail</label>
+        <input type="text" id="ename" name="emailname" placeholder="Provide your email to get a response back.">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+        <!-- </form> -->
+      </form>
     </div>
+
+    <!-- <script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name");
+    frmvalidator.addValidation("email","req","Please provide your email");
+    frmvalidator.addValidation("email","email",
+    "Please enter a valid email address");
+    </script> -->
+
+    <section>
+      <div class="container">
+        <div class="c">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="look"class="img-fluid rounded-circle" src="Chowdhury, Samira.jpg" alt="">
+              <div class="row">
+              <h1 class="words"class="display-4">Samira Chowdhury</h1>
+              <p>I enjoyed creating this project, for women's rights is very important to me.
+              My team and I created this website to empower women and educate people about women's rights.
+              My role on this project was inserting a map API and ensuring that the map was informative of women's rights violations and struggles from all around the world.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <section>
+    <div class="container">
+      <div class="c">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="look"class="img-fluid rounded-circle" src="img/me.jpg" alt="">
+            <div class="row">
+            <h1 class="words"class="display-4">Lizzet Villa</h1>
+            <p> Women all across the world are looked down on just for being a woman. Over the course of 7 weeks, Girls Who Code has provided me with the necessary tools and support I needed.
+               For the past 2 weeks my group and I have worked together to create this website to help inform others of the sexism women have to go through.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="c">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="look"class="img-fluid rounded-circle" src="img/Vianey.jpg" alt="">
+            <div class="row">
+            <h1 class="words"class="display-4">Vianey Rivera</h1>
+            <p> This is a project we been doing during our time at the Girls Who Code intership.
+            I love working on this project, I was in charge of researching women who have
+          professions in the feild of males. I hope people are inform about the injustice women
+        experience in other countries. </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <div class="back-button-container" style="padding-bottom: 7rem;">
+    <a href="#" class="btn btn-primary btn-l pill mt-5 back-button">Back To Top</a>
+  </div>
 
 
     <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Lizzet's Website 2018</p>
+        <p class="m-0 text-center text-white small">Copyright &copy; Diversity.Equality.Unity Website 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- <script type="text/javascript" src="main.js">
